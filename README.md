@@ -8,4 +8,4 @@
 ## Contents
 
 - .vimrc
-- a list of vim plugins to be installed
+- a command to install or update vimrc and vim plugins
