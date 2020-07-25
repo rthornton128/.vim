@@ -15,6 +15,10 @@ set hidden		" Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
 set number              " Enable line numbers
 
+" Commenting (vim-commentary)
+vmap \ gc
+nmap \ gcc
+
 " Go specific settings
 autocmd Filetype go setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 let g:go_fmt_command = "goimports"
