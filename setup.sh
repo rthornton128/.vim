@@ -7,6 +7,7 @@ VIMRC=$HOME/.vimrc
 function set_group () {
 	local group=$1
 	local path="$ROOT/pack/$group/start"
+	echo "Processing group: $group"
 	mkdir -p "$path"
 	cd "$path" || exit
 }
@@ -35,6 +36,7 @@ clone_plugin https://github.com/scrooloose/nerdtree
 
 # Language plugins
 set_group ruby
+clone_plugin https://github.com/vim-ruby/vim-ruby
 clone_plugin https://github.com/tpope/vim-rails
 clone_plugin https://github.com/tpope/vim-endwise
 
@@ -43,7 +45,10 @@ clone_plugin https://github.com/fatih/vim-go
 
 # Theme plugins
 
-echo "Creating .vimrc if it doesn't already exist"
+printf "Checking for '$VIMRC': "
 if [ ! -f "$VIMRC" ]; then
+	echo "Linking"
 	ln -s -v "$ROOT/vimrc" "$VIMRC"
+else
+	echo "Done"
 fi
