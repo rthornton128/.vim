@@ -19,9 +19,10 @@ function clone_plugin () {
 		cd $repo || exit
 		local result=$(git pull --force)
 		echo "$repo: $result"
+		cd ..
 	else
 		echo "$repo: Cloning"
-		git clone --quiet "$url"
+		git clone "$url"
 	fi
 }
 
