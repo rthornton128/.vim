@@ -34,6 +34,10 @@ clone_plugin https://github.com/tpope/vim-sensible
 clone_plugin https://github.com/tpope/vim-surround
 clone_plugin https://github.com/vim-airline/vim-airline
 clone_plugin https://github.com/scrooloose/nerdtree
+clone_plugin https://github.com/dense-analysis/ale
+clone_plugin https://github.com/junegunn/fzf.vim
+clone_plugin https://github.com/jiangmiao/auto-pairs
+clone_plugin https://github.com/editorconfig/editorconfig-vim
 
 # Language plugins
 set_group ruby
