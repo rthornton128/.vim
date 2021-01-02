@@ -25,4 +25,4 @@ let g:go_fmt_command = "goimports"
 let g:go_auto_type_info = 1
 
 " Ruby specific settings
-autocmd Filetype ruby setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd Filetype ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
