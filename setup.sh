@@ -33,18 +33,23 @@ clone_plugin https://github.com/tpope/vim-fugitive
 clone_plugin https://github.com/tpope/vim-sensible
 clone_plugin https://github.com/tpope/vim-surround
 clone_plugin https://github.com/vim-airline/vim-airline
+clone_plugin https://github.com/vim-airline/vim-airline-themes
 clone_plugin https://github.com/scrooloose/nerdtree
 clone_plugin https://github.com/dense-analysis/ale
 clone_plugin https://github.com/junegunn/fzf
 clone_plugin https://github.com/junegunn/fzf.vim
 clone_plugin https://github.com/jiangmiao/auto-pairs
 clone_plugin https://github.com/editorconfig/editorconfig-vim
+clone_plugin https://github.com/morhetz/gruvbox
+clone_plugin https://github.com/airblade/vim-gitgutter
 
 # Language plugins
 set_group ruby
 clone_plugin https://github.com/vim-ruby/vim-ruby
 clone_plugin https://github.com/tpope/vim-rails
 clone_plugin https://github.com/tpope/vim-endwise
+clone_plugin https://github.com/tpope/vim-bundler
+clone_plugin https://github.com/tpope/vim-rake
 
 set_group go
 clone_plugin https://github.com/fatih/vim-go
